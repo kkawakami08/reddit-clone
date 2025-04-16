@@ -7,7 +7,7 @@ const Header = () => {
   //server side session = dynamic
 
   return (
-    <nav className="flex items-center justify-between  ">
+    <nav className="flex items-center justify-between py-4">
       <Link href={paths.home()} className="font-bold">
         Discuss
       </Link>
